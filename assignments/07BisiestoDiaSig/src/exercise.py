@@ -22,7 +22,7 @@ def main():
         else:
             d = d + 1
     # Mes 2 puede tener 28 o 29 dias
-    else:
+    else: #consideraciones de año bisiesto
         if d == 29 and y % 4 == 0 and y % 100 != 0 or y % 400 == 0:
             d = 1
             m = m + 1

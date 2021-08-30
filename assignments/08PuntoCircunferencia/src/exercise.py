@@ -7,7 +7,7 @@ def main():
     y1 = float(input("Introduce y1: ")) # Coordenada Y1 del centro de la circunferencia
     x2 = float(input("Introduce x2: ")) # Coordenada X2 del Punto a evaluar si esta dentro o fuera
     y2 = float(input("Introduce y2: ")) # Coordenada Y2 del Punto a evaluar si esta dentro o fuera
-    d = math.sqrt((x2-x1)**2+(y2-y1)**2)
+    d = math.sqrt((x2-x1)**2+(y2-y1)**2) # Fórmula de distancia entre dos puntos
     if d>r:
         print("FUERA")
     elif d==r:
